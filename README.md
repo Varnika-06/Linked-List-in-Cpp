@@ -5,7 +5,7 @@
 
 ---
 
-## 🎯 Objective
+##  Objective
 To study and implement the concept of **Linked Lists in C++** and perform basic operations such as:  
 - Creating nodes and linking them  
 - Inserting nodes at the front  
@@ -13,7 +13,7 @@ To study and implement the concept of **Linked Lists in C++** and perform basic 
 
 ---
 
-## 📖 Theory
+##  Theory
 A **Linked List** is a linear data structure where elements (called **nodes**) are stored at non-contiguous memory locations. Each node contains:  
 1. **Data field** → stores the value.  
 2. **Pointer field (next)** → stores the address of the next node.  
@@ -30,9 +30,9 @@ Unlike arrays, linked lists are dynamic and can grow or shrink during runtime.
 
 ---
 
-## 📝 Program 1 – Creating and Displaying Linked Nodes
+##  Program 1 – Creating and Displaying Linked Nodes
 
-### 📌 Algorithm:
+###  Algorithm:
 1. Define a `Link` class with:  
    - `data` → integer field.  
    - `next` → pointer to next node.  
@@ -45,9 +45,9 @@ Unlike arrays, linked lists are dynamic and can grow or shrink during runtime.
 
 ---
 
-## 📝 Program 2 – Adding Nodes to the Front of a Linked List
+##  Program 2 – Adding Nodes to the Front of a Linked List
 
-### 📌 Algorithm:
+###  Algorithm:
 1. Define a `Node` class with:  
    - `value` → integer field.  
    - `next` → pointer to next node.  
@@ -64,7 +64,7 @@ Unlike arrays, linked lists are dynamic and can grow or shrink during runtime.
 
 ---
 
-## ✅ Conclusion
+##  Conclusion
 From this experiment, we learned:  
 - The concept of **nodes** and **pointers** in linked lists.  
 - How to **link nodes** manually and **traverse** them.  
