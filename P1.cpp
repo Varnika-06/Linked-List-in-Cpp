@@ -1,0 +1,42 @@
+//Name: Varnika Maurya
+//PRN: 24070123160
+//Exp No.: 17
+//Program No.: 1
+#include <iostream>
+using namespace std;
+class Link 
+{
+    public:
+        int data;
+        Link* next;
+        Link(int num) 
+        {
+            data = num;
+            next = nullptr;
+        }
+        void display() 
+        {
+            cout << "Data: " << data;
+            if (next == nullptr) 
+                cout << " | Next: END" << endl;
+            else 
+                cout << " | Next: " << next->data << endl;
+        }
+};
+int main() 
+{
+    Link* l1 = new Link(6);
+    Link* l2 = new Link(12);
+    l1->next = l2;
+    cout << "First Node -> ";
+    l1->display();
+    cout << "Second Node -> ";
+    l2->display();
+    return 0;
+}
+
+/* 
+Output:
+First Node -> Data: 6 | Next: 12
+Second Node -> Data: 12 | Next: END
+*/
